@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+.navBar {
+  display: fixed;
+  display: flex;
+  justify-content: flex-end;
+}
+.navBar li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+  /*visibility: hidden; This will leave space where the hidden item was*/
+}
